@@ -3,7 +3,7 @@ from selenium import webdriver
 from PageObjects.Login_page import login
 from webdriver_manager.chrome import ChromeDriverManager
 
-class test_01_Login():
+class Test_01_Login():
     baseURL = 'https://admin-demo.nopcommerce.com/'
     username = 'admin@yourstore.com'
     password = 'admin'
