@@ -22,3 +22,12 @@ class ReadConfig:
     def Login_password():
         password = config.get('common data', 'password')
         return password
+
+    @staticmethod
+    def Excel_file_path():
+        file = os.path.abspath(os.path.join(__file__, '..', '..'))
+        excel_file= os.path.join(file,'TestData','LoginData.xlsx')
+        return excel_file
+
+
+
